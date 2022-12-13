@@ -1,0 +1,11 @@
+postfix         -> expr++, exp--
+prefix          -> ++expr, --expr
+unaryoperators  -> +, -, !, (type)
+mult/div/mod    -> *, /, %
+add/sub         -> +, -
+relational      -> <, >, <=, >=, instance of
+equal/notequal  -> ==, !=
+logical         -> &, |, ^
+short-circuit   -> &&, ||
+ternary op      -> booleanexp? exp1: exp2
+assignment op   -> =, +=, -=, *=, /=
