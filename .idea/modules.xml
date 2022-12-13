@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaBasics/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics/JavaBasics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Oracle-Certified-Associate.iml" filepath="$PROJECT_DIR$/Oracle-Certified-Associate.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UML/UML.iml" filepath="$PROJECT_DIR$/UML/UML.iml" />
     </modules>
   </component>
 </project>
