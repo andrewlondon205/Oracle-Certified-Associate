@@ -1,0 +1,5 @@
+Which of these expressions will obtain the substring "456" from a string defined by String str = "01234567"?
+
+str.substring(4,7) because the 1st argument indicates the starting index, whereas the 2nd argument equates to the
+ending index-1.
+
