@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Circle {
+public class RamaiCircle {
 
     private double radius;
     private double area;
@@ -8,9 +8,9 @@ public class Circle {
     private double diameter;
     private final double pi = 3.14;
 
-    public Circle() { }
+    public RamaiCircle() { }
 
-    public Circle (double radius) {
+    public RamaiCircle(double radius) {
         this.radius = radius;
     }
 
@@ -31,7 +31,7 @@ public class Circle {
 
     public static void main(String[] args) {
 
-        Circle c = new Circle();
+        RamaiCircle c = new RamaiCircle();
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello, please enter the radius");
         double val = sc.nextDouble();
