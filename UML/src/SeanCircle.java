@@ -18,8 +18,6 @@ public class SeanCircle {
         double area = calcArea(radius);
         System.out.println("area is :" + area);
 
-
-
     }
 
     public static double calcDiameter(double radius) {

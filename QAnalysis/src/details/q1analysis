@@ -1,0 +1,43 @@
+
+jshell> String str = "10";
+str ==> "10"
+
+jshell> int iVal = 0;
+iVal ==> 0
+
+jshell> Double dVal = 0.0;
+dVal ==> 0.0
+
+jshell> ival = Integer.parseInt(str,2);
+|  Error:
+|  cannot find symbol
+|    symbol:   variable ival
+|  ival = Integer.parseInt(str,2);
+|  ^--^
+
+jshell> ival
+|  Error:
+|  cannot find symbol
+|    symbol:   variable ival
+|  ival
+|  ^--^
+
+jshell> Ival
+|  Error:
+|  cannot find symbol
+|    symbol:   variable Ival
+|  Ival
+|  ^--^
+
+jshell> iVal
+iVal ==> 0
+
+jshell> iVal = Integer.parseInt(str,2)
+iVal ==> 2
+
+Note: Integer.parseInt() when given a single argument, in this case, a string value, will simply convert the string to an integer. However,
+in this case, because a second argument was provided, then the compiler knows that the given string initial base may be different from 10.
+
+Hence: the compiler interprets: Integer.parseInt(str,2) as: the value 10 is a binary, therefore i will convert it to base 10 which equals to 2
+
+jshell>
