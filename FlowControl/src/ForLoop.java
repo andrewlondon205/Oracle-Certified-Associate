@@ -20,5 +20,11 @@ public class ForLoop {
 
     //    for(int j=0, short k=0; i<5 && j<5; i++, j++) // mixed type
 
+        for(int f=0; f<5; f++) {}
+       // System.out.println(f); // out of scope
+
+        int counter = 0;
+        for(counter=3;counter>1;counter--) {} // it will execute
+
     }
 }
