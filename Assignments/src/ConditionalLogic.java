@@ -6,14 +6,14 @@ public class ConditionalLogic {
 
     public static void main(String[] args) {
           //   preAndPostDifference();
-         //   booleanLogicShortCircuitOps();
-        //    booleanBitwiseOps();
-        // switchVowelOrConsonant();
-        //    System.out.println(admitToFilm(20,19));
-       // ifMonth();
-       // ifGrade();
-      //  switchMathOperation();
-      //  ifTemperature();
+          //   booleanLogicShortCircuitOps();
+          //    booleanBitwiseOps();
+         // switchVowelOrConsonant();
+         //    System.out.println(admitToFilm(20,19));
+        // ifMonth();
+        // ifGrade();
+       //  switchMathOperation();
+       //  ifTemperature();
         switchDaysInMonth();
     }
 
