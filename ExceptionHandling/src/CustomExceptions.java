@@ -11,7 +11,7 @@ class BullInFieldException extends Exception {
 
 
 public class CustomExceptions {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws Exception{
+        throw new BullInFieldException("Walking in fields ...");
     }
 }
